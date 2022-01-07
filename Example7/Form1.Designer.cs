@@ -58,21 +58,23 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Gray;
-            this.label1.Location = new System.Drawing.Point(12, 13);
+            this.label1.Location = new System.Drawing.Point(14, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(204, 13);
+            this.label1.Size = new System.Drawing.Size(204, 15);
             this.label1.TabIndex = 0;
             this.label1.Text = "HAPCAN Home Automation Project";
             // 
             // OpenPort
             // 
             this.OpenPort.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.OpenPort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OpenPort.Location = new System.Drawing.Point(548, 8);
+            this.OpenPort.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.OpenPort.Location = new System.Drawing.Point(639, 9);
+            this.OpenPort.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.OpenPort.Name = "OpenPort";
-            this.OpenPort.Size = new System.Drawing.Size(92, 23);
+            this.OpenPort.Size = new System.Drawing.Size(107, 27);
             this.OpenPort.TabIndex = 3;
             this.OpenPort.Text = "OpenPort";
             this.OpenPort.UseVisualStyleBackColor = true;
@@ -82,10 +84,11 @@
             // 
             this.ClosePort.Enabled = false;
             this.ClosePort.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.ClosePort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ClosePort.Location = new System.Drawing.Point(548, 37);
+            this.ClosePort.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.ClosePort.Location = new System.Drawing.Point(639, 43);
+            this.ClosePort.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ClosePort.Name = "ClosePort";
-            this.ClosePort.Size = new System.Drawing.Size(92, 23);
+            this.ClosePort.Size = new System.Drawing.Size(107, 27);
             this.ClosePort.TabIndex = 4;
             this.ClosePort.Text = "ClosePort";
             this.ClosePort.UseVisualStyleBackColor = true;
@@ -112,9 +115,11 @@
             this.groupBox1.Controls.Add(this.comboBox1);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox1.Location = new System.Drawing.Point(12, 418);
+            this.groupBox1.Location = new System.Drawing.Point(14, 482);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(760, 81);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.groupBox1.Size = new System.Drawing.Size(887, 93);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Send Message";
@@ -124,10 +129,11 @@
             this.Send.BackColor = System.Drawing.SystemColors.Control;
             this.Send.Enabled = false;
             this.Send.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.Send.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Send.Location = new System.Drawing.Point(645, 32);
+            this.Send.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.Send.Location = new System.Drawing.Point(752, 37);
+            this.Send.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Send.Name = "Send";
-            this.Send.Size = new System.Drawing.Size(92, 23);
+            this.Send.Size = new System.Drawing.Size(107, 27);
             this.Send.TabIndex = 15;
             this.Send.Text = "Send";
             this.Send.UseVisualStyleBackColor = false;
@@ -136,25 +142,27 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(610, 35);
+            this.label4.Location = new System.Drawing.Point(712, 40);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(20, 13);
+            this.label4.Size = new System.Drawing.Size(21, 15);
             this.label4.TabIndex = 14;
             this.label4.Text = "A5";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(583, 35);
+            this.label3.Location = new System.Drawing.Point(680, 40);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(20, 13);
+            this.label3.Size = new System.Drawing.Size(21, 15);
             this.label3.TabIndex = 13;
             this.label3.Text = "1A";
             // 
             // comboBox12
             // 
             this.comboBox12.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox12.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox12.FormattingEnabled = true;
             this.comboBox12.Items.AddRange(new object[] {
             "00",
@@ -413,16 +421,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox12.Location = new System.Drawing.Point(533, 32);
+            this.comboBox12.Location = new System.Drawing.Point(622, 37);
+            this.comboBox12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(41, 21);
+            this.comboBox12.Size = new System.Drawing.Size(47, 23);
             this.comboBox12.TabIndex = 12;
             this.comboBox12.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox11
             // 
             this.comboBox11.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox11.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox11.FormattingEnabled = true;
             this.comboBox11.Items.AddRange(new object[] {
             "00",
@@ -681,16 +690,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox11.Location = new System.Drawing.Point(489, 32);
+            this.comboBox11.Location = new System.Drawing.Point(570, 37);
+            this.comboBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(41, 21);
+            this.comboBox11.Size = new System.Drawing.Size(47, 23);
             this.comboBox11.TabIndex = 11;
             this.comboBox11.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox10
             // 
             this.comboBox10.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox10.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox10.FormattingEnabled = true;
             this.comboBox10.Items.AddRange(new object[] {
             "00",
@@ -949,16 +959,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox10.Location = new System.Drawing.Point(445, 32);
+            this.comboBox10.Location = new System.Drawing.Point(519, 37);
+            this.comboBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(41, 21);
+            this.comboBox10.Size = new System.Drawing.Size(47, 23);
             this.comboBox10.TabIndex = 10;
             this.comboBox10.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox9
             // 
             this.comboBox9.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox9.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox9.FormattingEnabled = true;
             this.comboBox9.Items.AddRange(new object[] {
             "00",
@@ -1217,16 +1228,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox9.Location = new System.Drawing.Point(401, 32);
+            this.comboBox9.Location = new System.Drawing.Point(468, 37);
+            this.comboBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox9.Name = "comboBox9";
-            this.comboBox9.Size = new System.Drawing.Size(41, 21);
+            this.comboBox9.Size = new System.Drawing.Size(47, 23);
             this.comboBox9.TabIndex = 9;
             this.comboBox9.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox8
             // 
             this.comboBox8.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox8.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox8.FormattingEnabled = true;
             this.comboBox8.Items.AddRange(new object[] {
             "00",
@@ -1485,16 +1497,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox8.Location = new System.Drawing.Point(357, 32);
+            this.comboBox8.Location = new System.Drawing.Point(416, 37);
+            this.comboBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(41, 21);
+            this.comboBox8.Size = new System.Drawing.Size(47, 23);
             this.comboBox8.TabIndex = 8;
             this.comboBox8.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox7
             // 
             this.comboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox7.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox7.FormattingEnabled = true;
             this.comboBox7.Items.AddRange(new object[] {
             "00",
@@ -1753,16 +1766,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox7.Location = new System.Drawing.Point(313, 32);
+            this.comboBox7.Location = new System.Drawing.Point(365, 37);
+            this.comboBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(41, 21);
+            this.comboBox7.Size = new System.Drawing.Size(47, 23);
             this.comboBox7.TabIndex = 7;
             this.comboBox7.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox6
             // 
             this.comboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox6.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox6.FormattingEnabled = true;
             this.comboBox6.Items.AddRange(new object[] {
             "00",
@@ -2021,16 +2035,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox6.Location = new System.Drawing.Point(269, 32);
+            this.comboBox6.Location = new System.Drawing.Point(314, 37);
+            this.comboBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox6.Name = "comboBox6";
-            this.comboBox6.Size = new System.Drawing.Size(41, 21);
+            this.comboBox6.Size = new System.Drawing.Size(47, 23);
             this.comboBox6.TabIndex = 6;
             this.comboBox6.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox5
             // 
             this.comboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox5.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox5.FormattingEnabled = true;
             this.comboBox5.Items.AddRange(new object[] {
             "00",
@@ -2289,16 +2304,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox5.Location = new System.Drawing.Point(225, 32);
+            this.comboBox5.Location = new System.Drawing.Point(262, 37);
+            this.comboBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox5.Name = "comboBox5";
-            this.comboBox5.Size = new System.Drawing.Size(41, 21);
+            this.comboBox5.Size = new System.Drawing.Size(47, 23);
             this.comboBox5.TabIndex = 5;
             this.comboBox5.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox4
             // 
             this.comboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox4.FormattingEnabled = true;
             this.comboBox4.Items.AddRange(new object[] {
             "00",
@@ -2557,16 +2573,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox4.Location = new System.Drawing.Point(175, 32);
+            this.comboBox4.Location = new System.Drawing.Point(204, 37);
+            this.comboBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox4.Name = "comboBox4";
-            this.comboBox4.Size = new System.Drawing.Size(41, 21);
+            this.comboBox4.Size = new System.Drawing.Size(47, 23);
             this.comboBox4.TabIndex = 4;
             this.comboBox4.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox3
             // 
             this.comboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox3.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox3.FormattingEnabled = true;
             this.comboBox3.Items.AddRange(new object[] {
             "00",
@@ -2825,16 +2842,17 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox3.Location = new System.Drawing.Point(131, 32);
+            this.comboBox3.Location = new System.Drawing.Point(153, 37);
+            this.comboBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox3.Name = "comboBox3";
-            this.comboBox3.Size = new System.Drawing.Size(41, 21);
+            this.comboBox3.Size = new System.Drawing.Size(47, 23);
             this.comboBox3.TabIndex = 3;
             this.comboBox3.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // comboBox2
             // 
             this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "00",
@@ -3093,25 +3111,27 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox2.Location = new System.Drawing.Point(88, 32);
+            this.comboBox2.Location = new System.Drawing.Point(103, 37);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(41, 21);
+            this.comboBox2.Size = new System.Drawing.Size(47, 23);
             this.comboBox2.TabIndex = 2;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(14, 35);
+            this.label2.Location = new System.Drawing.Point(16, 40);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 13);
+            this.label2.Size = new System.Drawing.Size(23, 15);
             this.label2.TabIndex = 1;
             this.label2.Text = "AA";
             // 
             // comboBox1
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.comboBox1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "00",
@@ -3370,9 +3390,10 @@
             "FD",
             "FE",
             "FF"});
-            this.comboBox1.Location = new System.Drawing.Point(45, 32);
+            this.comboBox1.Location = new System.Drawing.Point(52, 37);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(41, 21);
+            this.comboBox1.Size = new System.Drawing.Size(47, 23);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -3380,10 +3401,11 @@
             // 
             this.Clear.BackColor = System.Drawing.SystemColors.Control;
             this.Clear.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Clear.Location = new System.Drawing.Point(12, 38);
+            this.Clear.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.Clear.Location = new System.Drawing.Point(14, 44);
+            this.Clear.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Clear.Name = "Clear";
-            this.Clear.Size = new System.Drawing.Size(92, 23);
+            this.Clear.Size = new System.Drawing.Size(107, 27);
             this.Clear.TabIndex = 7;
             this.Clear.Text = "Clear";
             this.Clear.UseVisualStyleBackColor = false;
@@ -3393,18 +3415,19 @@
             // 
             this.richTextBox1.BackColor = System.Drawing.Color.White;
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.richTextBox1.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.richTextBox1.Location = new System.Drawing.Point(12, 67);
+            this.richTextBox1.Font = new System.Drawing.Font("Courier New", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.richTextBox1.Location = new System.Drawing.Point(14, 77);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(760, 345);
+            this.richTextBox1.Size = new System.Drawing.Size(887, 398);
             this.richTextBox1.TabIndex = 8;
             this.richTextBox1.Text = "";
             // 
             // comboBox13
             // 
             this.comboBox13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.comboBox13.Font = new System.Drawing.Font("Courier New", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.comboBox13.Font = new System.Drawing.Font("Courier New", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.comboBox13.FormattingEnabled = true;
             this.comboBox13.Items.AddRange(new object[] {
             "COM1",
@@ -3417,18 +3440,19 @@
             "COM8",
             "COM9",
             "COM10"});
-            this.comboBox13.Location = new System.Drawing.Point(413, 23);
+            this.comboBox13.Location = new System.Drawing.Point(482, 27);
+            this.comboBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.comboBox13.Name = "comboBox13";
-            this.comboBox13.Size = new System.Drawing.Size(109, 25);
+            this.comboBox13.Size = new System.Drawing.Size(126, 25);
             this.comboBox13.TabIndex = 13;
             this.comboBox13.Text = "COM1";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(784, 511);
+            this.ClientSize = new System.Drawing.Size(915, 590);
             this.Controls.Add(this.comboBox13);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.Clear);
@@ -3437,9 +3461,10 @@
             this.Controls.Add(this.OpenPort);
             this.Controls.Add(this.label1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(800, 5500);
-            this.MinimumSize = new System.Drawing.Size(800, 550);
+            this.MaximumSize = new System.Drawing.Size(931, 6340);
+            this.MinimumSize = new System.Drawing.Size(931, 629);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Example7 - RS232 communication (C#)";
